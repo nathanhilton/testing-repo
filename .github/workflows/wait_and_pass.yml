@@ -1,0 +1,10 @@
+on:
+  pull_request: {}
+jobs:
+  example:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: |
+          sleep 20; exit 0
